@@ -1,0 +1,488 @@
+* {
+    padding: 0px;
+    margin: 0px auto;
+}
+
+header,
+section,
+nav,
+aside,
+footer {
+    display: block;
+}
+
+body{
+    overflow-x:hidden ;
+}
+#index>#wrapper {
+    width: 1440px;
+    margin: 0px auto;
+}
+
+body>section>header {
+    height: 123px;
+    width: 100%;
+    border-radius: 0px;
+    background-color: #F49092;
+    display: flex;
+}
+
+body>section>header>ul {
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    margin-left: 575px;
+    margin-top: 52px;
+    gap: 18px;
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+#index li:not(:first-child)>a:hover {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+#index>section>header>div {
+    height: 14px;
+    width: 14px;
+    margin-left: 595px;
+    margin-top: 34px;
+    border-radius: 50px;
+    background: #fbfbfb;
+}
+
+h1 {
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 96px;
+}
+
+h2 {
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+#index>section>main {
+    display: flex;
+    height: 624px;
+    width: 881px;
+    left: 244px;
+    margin-top: 91px;
+    margin-bottom: 137px;
+    border-radius: 0px;
+}
+
+body>section>main>#text {
+    position: relative;
+    height: 120px;
+    width: 374px;
+    top: 176px;
+    border-radius: 0px;
+    color: #B2B0B1;
+}
+
+body>section>main>section {
+    flex-direction: column;
+    margin-right: 0px;
+}
+
+#index>section>main>section :hover{
+    background: #ffffff;
+}
+
+.square1 {
+    height: 23px;
+    width: 75px;
+    margin-left: 30px;
+    margin-top: 44px;
+    border-radius: 0px;
+    background: #FFDE17;
+}
+
+.square2 {
+    height: 46px;
+    width: 136px;
+    margin-left: 30px;
+    margin-top: 8px;
+    border-radius: 0px;
+    background: #FFDE17;
+}
+
+.square3 {
+    height: 404px;
+    width: 134px;
+    margin-left: 30px;
+    margin-top: 11px;
+    border-radius: 0px;
+    background: #FFDE17;
+}
+
+.square4 {
+    height: 28px;
+    width: 88px;
+    margin-left: 30px;
+    margin-top: 11px;
+    border-radius: 0px;
+    background: #FFDE17;
+}
+
+.square5 {
+    height: 26px;
+    width: 25px;
+    margin-left: 30px;
+    margin-top: 7px;
+    border-radius: 0px;
+    background: #FFDE17;
+}
+
+.square6 {
+    height: 26px;
+    width: 25px;
+    margin-left: 62px;
+    margin-top: -26px;
+    border-radius: 0px;
+    background: #FFDE17;
+}
+
+.square7 {
+    height: 352px;
+    width: 246px;
+    margin-right: 0px;
+    margin-top: 44px;
+    border-radius: 0px;
+    background: #FFDE17;
+}
+
+.square8 {
+    height: 212px;
+    width: 123px;
+    margin-left: 0px;
+    margin-top: 16px;
+    border-radius: 0px;
+    background: #FFDE17;
+}
+
+.square9 {
+    height: 105px;
+    width: 55px;
+    margin-right: 54px;
+    margin-top: -212px;
+    border-radius: 0px;
+    background: #FFDE17;
+}
+
+.square10 {
+    height: 58px;
+    width: 110px;
+    margin-right: 0px;
+    margin-top: 7px;
+    border-radius: 0px;
+    background: #FFDE17;
+}
+
+.square11 {
+    height: 55px;
+    width: 28px;
+    margin-left: 0px;
+    margin-top: 0px;
+    border-radius: 0px;
+    background: #FFDE17;
+}
+
+.square12 {
+    height: 55px;
+    width: 28px;
+    margin-left: 0px;
+    margin-top: 11px;
+    border-radius: 0px;
+    background: #FFDE17;
+}
+
+.square13 {
+    height: 55px;
+    width: 28px;
+    margin-left: 0px;
+    margin-top: 11px;
+    border-radius: 0px;
+    background: #FFDE17;
+}
+
+.square14 {
+    height: 198px;
+    width: 28px;
+    margin-left: 0px;
+    margin-top: 11px;
+    border-radius: 0px;
+    background: #FFDE17;
+}
+
+.square15 {
+    height: 105px;
+    width: 55px;
+    margin-left: -27px;
+    margin-top: 16px;
+    border-radius: 0px;
+    background: #FFDE17;
+}
+
+footer {
+    height: 41px;
+    width: 100%;
+    bottom: 0px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    background: #7BCAB4;
+}
+
+
+/*/////////////////////////////////////////////////////////////////////*/
+#layout header li:not(:nth-child(2))>a:hover {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#layout>section>header>div {
+    height: 14px;
+    width: 14px;
+    margin-left: 686px;
+    margin-top: 34px;
+    border-radius: 50px;
+    background: #ffffff;
+}
+
+#layout>#wrapper {
+    width: 1440px;
+    margin: 0px auto;
+}
+
+#layout>section>main {
+    float: left;
+    display: flex;
+    height: 1983px;
+    width: 1271px;
+    border-radius: 0px;
+}
+
+#layout aside {
+    float: right;
+    display: flex;
+    height: 1983px;
+    width: 169px;
+    border-radius: 0px;
+    background-color:#FFDE17;
+}
+
+#layout aside>section>div {
+    display: flex;
+    height: 80px;
+    width: 80px;
+    border-radius: 0px;
+}
+
+#layout aside>section>div:first-child {
+    margin-left: -129px;
+    margin-top: 119px;
+    background-color: #ffffff;
+}
+
+#layout aside>section>div:nth-child(2) {
+    margin-left: -40px;
+    margin-top: 48px;
+    background-color: #ffffff;
+}
+
+#layout aside>section>div:last-child {
+    margin-left: -129px;
+    margin-top: 289px;
+    background-color: #ffffff;
+}
+
+
+#layout aside>ul {
+    list-style-type: none;
+    flex-direction: column;
+    width: 81px;
+    height: 641px;
+    margin-left: 49px;
+    margin-top: 1363px;
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 128px;
+    color: #000000;
+}
+
+#layout aside a:hover {
+    font-weight: bold;
+}
+
+.rectangle {
+    height: 299px;
+    width: 457px;
+    border-radius: 0px;
+    background: #C4C4C4;
+}
+
+#layout main>section {
+    display: flex;
+    gap: 70px;
+}
+
+#layout section:first-child {
+    margin-top: 119px;
+    margin-left: 151px;
+}
+
+#layout main>section:last-child {
+    margin-top: 287px;
+    margin-left: 55px;
+}
+
+/*//////////////////////////////////////////////////////////////*/
+
+#layout3>#wrapper {
+    width: 1440px;
+    margin: 0px auto;
+}
+
+#layout3 main>div {
+    display: flex;
+    width: 104px;
+    height: 995px;
+    margin-right: -104px;
+    top: 123px;
+    background: #B2B0B1;
+
+}
+
+#layout3>section>main {
+    position: relative;
+    height: 995px;
+    width: 964px;
+    margin-left: 372px;
+    border-radius: 0px;
+}
+
+#layout3 section aside {
+    position: relative;
+    width: 372px;
+    height: 995px;
+    margin-left: 0px;
+    margin-top: -995px;
+    background: #F49092;
+}
+
+#layout3 aside {
+    display: flex;
+    width: 1440px;
+    height: 463px;
+    
+    background: #EBEF18;
+}
+
+#layout3>section>main>section {
+    width: 836px;
+    height: 588px;
+    margin-left: 64px;
+    margin-top: -900px;
+    background-color: #EBEF18;
+}
+
+#layout3 ul {
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    width: 198px;
+    height: 33px;
+    margin-top: 123px;
+    margin-left: 38px;
+    gap: 18px;
+    font-family: 'Amiko';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+}
+
+#layout3 li:not(:last-child)>a:hover {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#layout3>section>aside>div {
+    display: flex;
+    height: 14px;
+    width: 14px;
+    margin-left: 280px;
+    margin-top: 105px;
+    border-radius: 50px;
+    background: #ffffff;
+}
+#layout3 header{
+    background:#B2B0B1 ;
+}
+
+@media(max-width:1420px){
+
+    #layout3>section>main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #layout3 section aside {
+        width: 100%;
+        height: 105px;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #layout3 ul{
+        position: absolute;
+        display: flex;
+        margin-top: 0px;
+    }
+
+    #layout3>section>aside>div  {
+        display: flex;
+        margin-left: 880px;
+        margin-top: -45px;
+    }
+
+    #layout3 main>div  {
+        display: flex;
+        display: none;
+    }
+
+    #layout3 aside {
+        margin-top:2800px;
+        height: 474px;
+    }
+}
